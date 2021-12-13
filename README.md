@@ -9,7 +9,9 @@
 
 - ### Python Crash Course Content <a name="python"></a>
 
-Source Video For The Documentation: https://www.youtube.com/watch?v=JJmcL1N2KQs (Python Crash Course)
+Python Crash Course: https://www.youtube.com/watch?v=JJmcL1N2KQs
+
+- #### Subjects
 
 - ##### 1.Variables And Data Types
 - ##### 2.Strings And String Methods
