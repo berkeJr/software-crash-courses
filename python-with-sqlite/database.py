@@ -50,7 +50,13 @@ c = conn.cursor()
 c.execute("SELECT * FROM customers")
 # c.fetchone()     == 1 item from the table
 # c.fetchmany(3)   == 3 items from the table
-print(c.fetchall())     # == all items from the table
+# print(c.fetchall())     # == all items from the table
+
+items = c.fetchall()
+
+for item in items:
+    print(item)
+
 
 
 
