@@ -12,19 +12,42 @@
 
 - #### Subjects
 
-- ##### 1.Variables And Data Types
-- ##### 2.Strings And String Methods
-- ##### 3.Lists
-- ##### 4.Tuples And Sets
-- ##### 5.Dictionaries
-- ##### 6.Functions
-- ##### 7.Conditionals
-- ##### 8.Loops
-- ##### 9.Modules
-- ##### 10.Classes
-- ##### 11.Inheritance
-- ##### 12.Files
-- ##### 13.JSON-Python
+
+<table class="table table-striped">
+
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/1.variables.py" >Variables and Data Types</a></th>
+      <th scope="row">4</th>
+      <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/4.tuples_sets.py" >Tuples and Sets</a></th>
+	  <th scope="row">7</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/4.tuples_sets.py" >Conditionals</a></th>
+	  <th scope="row">10</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/10.classes.py" >Classes</a></th>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/2.strings.py" >Strings</a></th>
+      <th scope="row">5</th>
+      <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/5.dictionaries.py" >Dictionaries</a></th>
+	  <th scope="row">8</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/8.loops.py" >Loops</a></th>
+	  <th scope="row">11</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/11.inheritance.py" >Inheritance</a></th>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/3.lists.py" >Lists</a></th>
+	  <th scope="row">6</th>
+      <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/6.functions.py" >Functions</a></th>
+	  <th scope="row">9</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/9.modules.py" >Modules</a></th>
+	  <th scope="row">12</th>
+	  <th scope="row"><a href="https://github.com/berkeJr/software-crash-courses/blob/master/python-crash-course/12.files.py" >Files</a></th>
+    </tr>
+    </tbody>
+</table>
 
 <hr>
 
