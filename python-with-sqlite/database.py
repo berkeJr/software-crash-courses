@@ -75,20 +75,34 @@ c = conn.cursor()
 
 ######   DATABASE QUERY: Update
 
-c.execute(""" UPDATE customers SET first_name = 'Burak' 
-            WHERE last_name = 'Gunduz'
-""")
+# c.execute(""" UPDATE customers SET first_name = 'Burak' 
+#             WHERE last_name = 'Gunduz'
+# """)
 
-c.execute("SELECT  * FROM customers")
+# c.execute("SELECT  * FROM customers")
 
 
 # print all records ar the screen as items
+# items = c.fetchall()
+
+# for item in items:
+#     print(item)
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+######   DATABASE QUERY: Update
+c.execute(""" DELETE FROM customers
+            WHERE last_name = 'Sayin'
+""")
+
+c.execute("SELECT * FROM customers")
+
 items = c.fetchall()
 
-for item in items:
+for item in items: 
     print(item)
 
-
+# ------------------------------------------------------------------------------------------------------------------------
 
 # we need to commit our command
 conn.commit()
