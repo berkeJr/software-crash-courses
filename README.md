@@ -28,6 +28,6 @@
 
 <hr>
 
-### SQLite Databases With Python Crash Course <a name="python-sqlite"></a> [Python - SQLite Crash Course Link](https://www.youtube.com/watch?v=byHcYRpMgI4)
+### SQLite Databases With Python Crash Course <a name="python-sqlite"></a> / [Python - SQLite Crash Course Link](https://www.youtube.com/watch?v=byHcYRpMgI4)
 
 - This is a crash course for using SQLite databases with Python programming language.
