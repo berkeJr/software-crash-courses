@@ -15,9 +15,11 @@ conn = sqlite3.connect('customer.db')
 # now, we need to create a cursor as a variable(for example: c)
 c = conn.cursor()
 
-
+# ------------------------------------------------------------------------------------------------------------------------
 
 # We will use this cursor to do all kind of things.
+
+###### CREATE TABLE
 
 # Create a table: Notes: Sqlite data types: NULL, INTEGER, REAL(decimal numbers), TEXT, BLOB(images, mp3 files and such kind of datas.) 
 # c.execute(""" CREATE TABLE customers( 
@@ -26,6 +28,10 @@ c = conn.cursor()
 #             email text
 #           )""")
 
+# ------------------------------------------------------------------------------------------------------------------------
+
+
+######  INSERT INTO: SINGLE RECORD
 
 # Create another cursor command to insert a record inside the table
 # c.execute("INSERT INTO customers VALUES ('John', 'Elder', 'john@test.com')")
@@ -37,6 +43,9 @@ c = conn.cursor()
 # c.execute("INSERT INTO customers VALUES ('Sami', 'Ince', 'sami@test.com')")
 # c.execute("INSERT INTO customers VALUES ('Hasan', 'Ozdogan', 'john@test.com')")
 
+# ------------------------------------------------------------------------------------------------------------------------
+
+######   INSERT INTO: MULTİPLE RECORDS
 
 # If we want to add multiple records: 
 # many_customers = [('Wes', 'Brown', 'wes@test.com'), 
@@ -45,6 +54,9 @@ c = conn.cursor()
 #                  ]
 # c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)
 
+# ------------------------------------------------------------------------------------------------------------------------
+
+######   DATABASE QUERY: SELECT
 
 # Query Database
 # c.execute("SELECT rowid, * FROM customers") #with id's
@@ -54,18 +66,27 @@ c = conn.cursor()
 # c.fetchmany(3)   == 3 items from the table
 # print(c.fetchall())     # == all items from the table
 
+# items = c.fetchall()
+
+# for item in items:
+#     print(item)
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+######   DATABASE QUERY: Update
+
+c.execute(""" UPDATE customers SET first_name = 'Burak' 
+            WHERE last_name = 'Gunduz'
+""")
+
+c.execute("SELECT  * FROM customers")
+
+
+# print all records ar the screen as items
 items = c.fetchall()
 
 for item in items:
     print(item)
-
-
-
-
-
-
-
-
 
 
 
