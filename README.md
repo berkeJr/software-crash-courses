@@ -9,7 +9,7 @@
 
 - ### Python Crash Course Content <a name="python"></a>
 
-Python Crash Course: https://www.youtube.com/watch?v=JJmcL1N2KQs
+[Python Crash Course](https://www.youtube.com/watch?v=JJmcL1N2KQs)
 
 - #### Subjects
 
