@@ -47,7 +47,9 @@ c = conn.cursor()
 
 
 # Query Database
-c.execute("SELECT * FROM customers")
+# c.execute("SELECT rowid, * FROM customers") #with id's
+#c.execute("SELECT * FROM customers WHERE last_name = 'Sayin'")  == use where clause
+
 # c.fetchone()     == 1 item from the table
 # c.fetchmany(3)   == 3 items from the table
 # print(c.fetchall())     # == all items from the table
