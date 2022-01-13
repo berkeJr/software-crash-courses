@@ -39,12 +39,27 @@ c = conn.cursor()
 
 
 # If we want to add multiple records: 
-many_customers = [('Wes', 'Brown', 'wes@test.com'), 
-                  ('Steph', 'Kuewa', 'steph@test.com'), 
-                  ('Ahmet', 'Sayin', 'ahmet@test.com'),
-                 ]
+# many_customers = [('Wes', 'Brown', 'wes@test.com'), 
+#                   ('Steph', 'Kuewa', 'steph@test.com'), 
+#                   ('Ahmet', 'Sayin', 'ahmet@test.com'),
+#                  ]
+# c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)
 
-c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)
+
+# Query Database
+c.execute("SELECT * FROM customers")
+# c.fetchone()     == 1 item from the table
+# c.fetchmany(3)   == 3 items from the table
+print(c.fetchall())     # == all items from the table
+
+
+
+
+
+
+
+
+
 
 # we need to commit our command
 conn.commit()
