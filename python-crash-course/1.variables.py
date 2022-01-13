@@ -17,14 +17,14 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
-# Creating variables: 
+# Creating variables:
 # x = 1  # in python there is no semi-colons and we don't have to add variable type before it's name (int, var) this is int by default
 
 # y = 2.5 # float
 
 # name = 'John' # str
 
-# is_cool = True # boolean 
+# is_cool = True # boolean
 
 # Multiple variables assignment
 x, y, name, is_cool = (1, 2.5, 'John', True)
@@ -48,3 +48,5 @@ y = int(y)
 z = float(y)
 
 print(type(z))
+
+print("berke")
